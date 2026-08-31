@@ -1,0 +1,95 @@
+﻿<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Account & Data Deletion - Learn Linux: Commands & Admin</title>
+  <meta name="description" content="Request deletion of your Learn Linux user account and associated personal data.">
+  <meta name="author" content="An Intellectual Company">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&family=Outfit:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <header class="navbar">
+    <div class="nav-container">
+      <a href="index.html" class="brand">
+        <span class="terminal-icon">$_</span>
+        <span>Linux<b>Admin</b></span>
+      </a>
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="privacy.html">Privacy Policy</a>
+        <a href="terms.html">Terms</a>
+        <a href="delete-account.html" class="active">Account Deletion</a>
+      </nav>
+    </div>
+  </header>
+
+  <div class="policy-container">
+    <div class="policy-box">
+      <div class="policy-header">
+        <h1>Account & Data Deletion Request</h1>
+        <div class="policy-meta">
+          <span><strong>Application:</strong> Learn Linux: Commands & Admin (<code>com.anintellectualcompany.linuxQuiz</code>)</span> &bull; 
+          <span><strong>Developer:</strong> An Intellectual Company</span>
+        </div>
+      </div>
+
+      <div class="policy-content">
+        <h2>How to Delete Your Account and Data</h2>
+        <p>In full compliance with Google Play Developer Policies on User Data, we provide simple ways for users to permanently delete their account, quiz history, XP, streak progress, and bookmarks.</p>
+
+        <div class="inner-card highlight-box">
+          <h3>Option 1: Direct In-App Deletion (Instant)</h3>
+          <p>1. Open the <strong>Learn Linux: Commands & Admin</strong> app on your device.<br>
+          2. Tap the <strong>Profile</strong> or <strong>Settings</strong> icon.<br>
+          3. Scroll down and tap <strong>Delete Account & Data</strong>.<br>
+          4. Confirm the prompt. Your user record in Firebase Auth and all Firestore documents will be erased immediately.</p>
+        </div>
+
+        <div class="inner-card">
+          <h3>Option 2: Web Deletion Request via Email</h3>
+          <p>If you have already uninstalled the application and wish to delete your cloud data:</p>
+          <p>Send an email to <a href="mailto:anintellectualcompany@gmail.com?subject=Account%20Deletion%20Request%20-%20Linux%20App">anintellectualcompany@gmail.com</a> with:</p>
+          <ul>
+            <li><strong>Subject:</strong> Account Deletion Request - Linux App</li>
+            <li><strong>Registered Google Email:</strong> The Gmail address you used with Google Sign-In in the app.</li>
+          </ul>
+          <p>Our team will process the permanent deletion within <strong>48 hours</strong> and send you a confirmation email.</p>
+        </div>
+
+        <h2>What Data is Deleted?</h2>
+        <ul>
+          <li>Google account identifier & email link in Firebase Auth</li>
+          <li>Cloud Firestore user document containing streak counts, XP, level, and unlocked achievements</li>
+          <li>Saved question bookmarks and custom quiz records</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <div class="footer-brand">
+        <span class="terminal-icon">$_</span>
+        <span>Linux<b>Admin</b></span>
+      </div>
+      <div class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="privacy.html">Privacy Policy</a>
+        <a href="delete-account.html">Data Deletion</a>
+        <a href="terms.html">Terms of Service</a>
+      </div>
+      <div class="footer-bottom">
+        &copy; 2026 An Intellectual Company. All rights reserved.
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
